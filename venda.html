@@ -75,6 +75,71 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+    
+    <div class="container">
+      <div class="form-group">
+
+        <div class="row">          
+          <div class="col-md-6">
+            <label for="produto">Produto</label>
+            <input type="text" class="form-control">
+          </div>
+
+          <div class="col-md-1">
+            <label for="quantidade">Quantidade</label>
+            <input type="number" class="form-control">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+            <label for="precou">Preço Unitário</label>
+            <input type="text" class="form-control">
+          </div>
+
+          <div class="col-md-2">
+            <label for="precot">Preço Total</label>
+            <input type="text" class="form-control">
+          </div>
+
+          <div class="col-md-2"><br>
+            <input type="submit" value="Adicionar" class="btn btn-success btn-block btn-md">
+          </div>
+        </div>
+
+      </div>
+
+      <br>
+
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <tr><th colspan="5">Lista de Compras</th></tr>
+          <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Preço Unitário</th>
+            <th>Preço Total</th>
+            <th></th>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><input type="submit" value="Remover da Lista" class="btn btn-danger"></td>
+          </tr>
+
+          <tr><th colspan="5">Total</td></tr>
+          <tr>
+            <th colspan="5">
+              <input type="submit" value="Cancelar Pedido" class="btn btn-danger btn-lg">
+              <input type="submit" value="Finalizar Pedido" class="btn btn-success btn-lg">          
+          </th></tr>
+        </table>
+      </div>
+
+    </div>
 
     <footer class="footer">
       <div class="container">
